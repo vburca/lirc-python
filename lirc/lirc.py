@@ -1,10 +1,9 @@
-from __future__ import print_function
 import sys
-
 import subprocess
 import traceback
-from subprocess import call
 
+from subprocess import call
+from __future__ import print_function
 
 class Lirc(object):
     """Parses the lircd.conf file and can send remote commands through irsend.
